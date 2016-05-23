@@ -14,7 +14,6 @@ address validator which uses the same regex as Angular 1.
 [![Donate][donate-badge]][donate]
 [![Code of Conduct][coc-badge]][coc]
 [![Roadmap][roadmap-badge]][roadmap]
-[![Examples][examples-badge]][examples]
 
 ## The problem
 
@@ -99,7 +98,7 @@ MIT
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/is-email-maybe/blob/master/other/CODE_OF_CONDUCT.md
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
+[roadmap]: https://github.com/kentcdodds/is-email-maybe/blob/master/other/ROADMAP.md
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [angular]: https://github.com/angular/angular.js
