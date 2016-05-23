@@ -9,14 +9,18 @@ export default {
       exclude: 'node_modules/**',
     }),
     process.env.BUILD === 'production' ? uglify() : null,
-  ].filter(p => !!p),
+  ].filter(function filterEmpty(p) {
+    return !!p
+  }),
   format: 'umd',
   moduleName: 'isEmailMaybe',
   sourceMap: true,
-  banner: `/**
- * @name isEmailMaybe
- * @license MIT
- * @copyright (c) 2016 Kent C. Dodds
- * @author Kent C. Dodds <kent@doddsfamily.us> (kentcdodds.com)
- */`,
+  banner: [
+    '/**',
+    ' * @name isEmailMaybe',
+    ' * @license MIT',
+    ' * @copyright (c) 2016 Kent C. Dodds',
+    ' * @author Kent C. Dodds <kent@doddsfamily.us> (kentcdodds.com)',
+    ' */',
+  ].join('\n'),
 }
