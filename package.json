@@ -65,8 +65,7 @@
   "release": {
     "verifyConditions": {
       "path": "condition-node-version",
-      "node": "^4",
-      "verbose": true
+      "node": "^4"
     }
   },
   "config": {
