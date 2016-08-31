@@ -47,7 +47,7 @@ be installed as one of your project's `dependencies`:
 npm install --save is-email-maybe
 ```
 
-You can also get it from [npmcdn.com][cdn]: [https://npmcdn.com/is-email-maybe][cdn-url]
+You can also get it from [unpkg.com][cdn]: [https://unpkg.com/is-email-maybe][cdn-url]
 
 ## Usage
 
@@ -103,8 +103,8 @@ MIT
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [angular]: https://github.com/angular/angular.js
 [angular-code]: https://github.com/angular/angular.js/blob/fa79eaa816aa27c6d1b3c084b8372f9c17c8d5a3/src/ng/directive/input.js#L27
-[cdn]: https://npmcdn.com
-[cdn-url]: https://npmcdn.com/is-email-maybe
+[cdn]: https://unpkg.com
+[cdn-url]: https://unpkg.com/is-email-maybe
 [is-email]: https://www.npmjs.com/package/is-email
 [email-validator]: https://www.npmjs.com/package/email-validator
 [is_js]: https://npmjs.com/package/is_js
